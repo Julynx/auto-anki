@@ -28,7 +28,7 @@ Generate expert-level Anki flashcards in CSV format from curated topic lists, po
 .
 ├── config.py           # Prompt builder & settings (language, # questions)
 ├── generate.py         # Main script: generates CSVs using OpenAI
-├── topics.py           # Topic lists (common, d2, d3)
+├── topics.py           # Topic list
 ├── .env                # Your OpenAI API key (not included)
 └── out/                # Output CSV files (auto-created)
 ```
