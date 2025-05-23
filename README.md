@@ -40,7 +40,7 @@ Generate expert-level Anki flashcards in CSV format from curated topic lists, po
 
 ### 1. **Requirements**
 
-- Python 3.8+
+- Python 3.12+
 - OpenAI API key with access to `o4-mini`
 - [uv](https://github.com/astral-sh/uv) (recommended for environment management)
 
@@ -48,8 +48,8 @@ Generate expert-level Anki flashcards in CSV format from curated topic lists, po
 
 ```bash
 # Clone this repo or download the files
-git clone https://github.com/your-username/auto_anki.git
-cd auto_anki
+git clone https://github.com/julynx/auto-anki.git
+cd auto-anki
 
 # Automatically install dependencies with uv
 uv sync
